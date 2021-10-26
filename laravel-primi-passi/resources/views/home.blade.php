@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Home</title>
 
         <style>
             * {
@@ -13,19 +13,49 @@
                 box-sizing: border-box;
             }
 
-            .hello {
+            body {
+                font-family: monospace;
+                background-color: palegreen;
+            }
+
+            header h1 {
+                text-align: center;
+                padding: 20px;
+                color: green;
+                font-size: 100px;
+                margin-bottom: 100px;
+            }
+
+            header ul {
                 text-align: center;
             }
-            .hello h1 {
-                color: green;
+
+            header ul li a {
+                border: 5px solid green;
+                padding: 30px;
+                margin: 30px;
+                text-decoration: none;
+                color: blue;
+                font-size: 50px;
+                background-color: lightyellow;
             }
+            
         </style>
     </head>
     <body>
-        <div class="hello">
+        
+        <header>
             <h1>
-                HELLO WORLD!
+                Home
             </h1>
-        </div>
+            <ul>
+                <li>
+                    <a href="/about_us">ABOUT US</a>
+                    <a href="/shop">SHOP</a>
+                    <a href="/contacts">CONTACTS</a>
+                </li>
+            </ul>
+        </header>
+            
     </body>
 </html>
