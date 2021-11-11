@@ -50,9 +50,9 @@
             </h1>
             <ul>
                 <li>
-                    <a href="/about_us">ABOUT US</a>
-                    <a href="/shop">SHOP</a>
-                    <a href="/contacts">CONTACTS</a>
+                    <a href="{{ route('about_us') }}">ABOUT US</a>
+                    <a href="{{ route('shop') }}">SHOP</a>
+                    <a href="{{ route('contacts') }}">CONTACTS</a>
                 </li>
             </ul>
         </header>

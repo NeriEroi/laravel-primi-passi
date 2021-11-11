@@ -19,12 +19,12 @@ Route::get('/', function () {
 
 Route::get('/about_us', function () {
     return view('about_us');
-});
+})->name('about_us');
 
 Route::get('/shop', function () {
     return view('shop');
-});
+})->name('shop');
 
 Route::get('/contacts', function () {
     return view('contacts');
-});
+})->name('contacts');
